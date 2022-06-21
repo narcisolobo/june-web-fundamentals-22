@@ -1,0 +1,27 @@
+/* Parts of a CSS Rule */
+
+/* 
+1. Selector (followed by curly braces {})
+2. Property (what are you styling about that element?)
+3. Value (how are you styling that property)
+*/
+
+h1 {
+  color: rebeccapurple;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 
+Types of CSS Selectors:
+1. HTML Element (all of these elements will receive the styles)
+2. Class Selector (. followed by name of class)
+3. ID Selector (# followed by name of ID)
+*/
+
+.highlight {
+  text-decoration: underline;
+}
+
+#p-2 {
+  font-weight: bold;
+}

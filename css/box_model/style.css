@@ -1,0 +1,20 @@
+h1 {
+  color: rebeccapurple;
+  background-color: aqua;
+  padding: 20px;
+  border: 1px solid black;
+  margin: 50px;
+}
+
+.box {
+  background-color: moccasin;
+  width: 200px;
+  height: 200px;
+  margin: 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#tall {
+  height: 500px;
+}
