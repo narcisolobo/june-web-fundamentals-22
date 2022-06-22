@@ -13,16 +13,23 @@
   height: 300px;
   width: 200px;
   background-color: blue;
+  display: inline-block;
+  margin-right: 15px;
 }
 .main {
   height: 400px;
   width: 700px;
   background-color: red;
+  display: inline-block;
+  vertical-align: top;
+  padding: 15px;
 }
 .sub-content {
+  display: inline-block;
   height: 200px;
   width: 210px;
   background-color: yellow;
+  /* margin: 0 11px 20px 0; */
 }
 #advertisement {
   height: 120px;
