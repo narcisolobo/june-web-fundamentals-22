@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.container {
+  background-color: yellow;
+  min-height: 40px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: red;
+  min-height: 60px;
+}
+
+.affiliates, .user-menu, .shopping-menu {
+  background-color: green;
+  min-height: 40px;
+  border: 1px solid black;
+  width: 60px;
+}
+
+.logo {
+  width: 60px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+p {
+  text-align: center;
+}
+
+.hero {
+  width: 100%;
+}
+
+.hero-copy {
+  text-align: center;
+}
