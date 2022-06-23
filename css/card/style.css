@@ -1,0 +1,21 @@
+.card {
+  border: 2px solid black;
+  width: 500px;
+  padding: 20px;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: pink;
+}
+
+.blue-header {
+  background-color: lightblue;
+  height: 75px;
+}
+
+.card-body {
+  /* padding: 20px; */
+}

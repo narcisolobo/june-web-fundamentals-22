@@ -1,0 +1,49 @@
+h1 {
+  color: rebeccapurple;
+}
+
+.box {
+  background-color: lightgreen;
+  width: 200px;
+  min-height: 200px;
+}
+
+.static {
+  position: static;
+  top: 50px;
+}
+
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+  top: 50px;
+  left:150px;
+}
+
+.circle {
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.centered {
+  margin: 0 auto;
+}
+
+.cookie-warning {
+  background-color: yellow;
+  padding: 1.5rem;
+  position: fixed;
+  bottom: 0;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  background-color: lightblue;
+  padding: .5rem 0;
+}
