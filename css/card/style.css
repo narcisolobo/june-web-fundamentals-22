@@ -1,7 +1,6 @@
 .card {
   border: 2px solid black;
   width: 500px;
-  padding: 20px;
 }
 
 .avatar {
@@ -17,5 +16,5 @@
 }
 
 .card-body {
-  /* padding: 20px; */
+  padding: 20px;
 }
