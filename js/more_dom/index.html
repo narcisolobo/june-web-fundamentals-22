@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More DOM</title>
+</head>
+<body>
+    <h1 id="topTitle" onclick="changeText(this)">More DOM</h1>
+    <button id="myButton" onclick="changeText(this)">Click Me!</button>
+    <div onmouseover="hide(this)">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae culpa corporis tempora reprehenderit nihil dolore amet aperiam dolor, eveniet quisquam quos optio impedit veritatis vero cupiditate? Sapiente, deserunt. Ea, fuga!</p>
+    </div>
+    <p><span id="counter1">3</span> Like(s)</p>
+    <button onclick="like(counter1)">Like</button>
+    <p><span id="counter2">3</span> Like(s)</p>
+    <button onclick="like(counter2)">Like</button>
+    <p><span id="counter3">3</span> Like(s)</p>
+    <button onclick="like(counter3)">Like</button>
+    <ol>
+        <li>User Clicks Button</li>
+        <li>Call function that adds a like</li>
+        <li>Function will run</li>
+        <li>DOM updated with new count</li>
+    </ol>
+    <h2>If the thing you're manipulating is ALSO the thing you're listening on, use the <em>this</em> keyword.</h2>
+    <h2>If the thing you're manipulating is NOT the thing you're listening on, use the <em>ID</em> of the element you're manipulating.</h2>
+    <script src="./script.js"></script>
+</body>
+</html>
