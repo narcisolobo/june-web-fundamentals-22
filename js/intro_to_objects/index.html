@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro to Objects</title>
+</head>
+<body>
+    <h1 id="myTitle">Intro to Objects</h1>
+    <h2>What is a JavaScript Object?</h2>
+
+    <strong>JS Objects are like objects IRL.</strong>
+    <p>They have characteristics and things they can do.</p>
+
+    <strong>CAR IRL</strong>
+    <p>Characteristics</p>
+    <ul>
+        <li>Make</li>
+        <li>Model</li>
+        <li>Year</li>
+        <li>Color</li>
+    </ul>
+    <p>Things a Car Can Do:</p>
+    <ul>
+        <li>Beep</li>
+        <li>Drive</li>
+    </ul>
+    <strong>Characteristics = Properties</strong>
+    <strong>Things it can do = Methods</strong>
+
+    <h3>Object Literal Notation - Creating an Object in JS</h3>
+    <pre>
+        var myCar = {
+            make: "Hyundai",
+            model: "Kona",
+            year: 2020,
+            color: "Lime Twist"
+        }
+        // Get and set values in an object using dot notation.
+        console.log(myCar.model);
+        myCar.year = 2022;
+
+        // Get and set values in object using bracket notation.
+        console.log(myCar['model']);
+        myCar["year"] = 2022;
+    </pre>
+    <script src="./script.js"></script>
+</body>
+</html>
