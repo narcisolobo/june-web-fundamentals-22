@@ -9,36 +9,39 @@
 </head>
 <body>
     <div class="container">
+        <!-- header start -->
         <header class="flex">
-            <img src="./assets/leaf.png" alt="Easy Bay Logo">
-            <h2>Easy Bay</h2>
+            <div class="header-left flex flex-start">
+                <img class="logo" src="./assets/leaf.png" alt="Easy Bay Logo">
+                <h2>EasyBay</h2>
+            </div>
             <input type="text">
-            <h3>Sign In</h3>
-            <img src="./assets/cart-dark.png" alt="Shopping Cart">
+            <div class="header-right flex flex-end">
+                <h3>Sign In</h3>
+                <img onclick="alert('Your cart is empty.')" src="./assets/cart-dark.png" alt="Shopping Cart">
+            </div>
         </header>
-        <nav>
-            <ul class="flex">
-                <li>Aeonium</li>
-                <li>Andormischus</li>
-                <li>Agave</li>
-                <li>Aloe</li>
-                <li>Anacampseros</li>
-                <li>Aristaloe</li>
-                <li>More...</li>
-            </ul>
-        </nav>
-        <div class="hero">
+        <ul class="nav flex">
+            <li>Aeonium</li>
+            <li>Andormischus</li>
+            <li>Agave</li>
+            <li>Aloe</li>
+            <li>Anacampseros</li>
+            <li>Aristaloe</li>
+            <li>More...</li>
+        </ul>
+        <div class="hero mb">
             <h1>Your Source for Serious Succulent Specialties</h1>
             <div class="flex">
                 <div class="hero-left flex">
                     <div class="discover">
-                        <p>Discover succulent varieties one pot or rack at a time!</p>
+                        <p class="mb">Discover succulent varieties one pot or rack at a time!</p>
                         <a href="">Discover →</a>
                     </div>
-                    <img src="./assets/succulents-1.jpg" alt="Succulents">
+                    <img onmouseover="toggleImage(this)" onmouseout="toggleImage(this)" src="./assets/succulents-1.jpg" alt="Succulents" alt-src="./assets/succulents-2.jpg">
                 </div>
                 <div class="hero-right">
-                    <img src="./assets/aloe-m.jpg" alt="Aloe">
+                    <img class="mb" src="./assets/aloe-m.jpg" alt="Aloe">
                     <a href="">Soothing Aloe →</a>
                 </div>
             </div>
@@ -69,10 +72,10 @@
                 <p>Sempervivum</p>
             </div>
         </div>
-        <div class="cookie flex">
+        <div class="cookie flex" id="cookieBox">
             <img src="./assets/alert-dark.png" alt="Alert">
             <p>This site makes use of third-party cookies, by clicking "I accept" you agree to the terms outlined in our <a href="">cookie policy.</a></p>
-            <button>I Accept</button>
+            <button onclick="hide(cookieBox)">I Accept</button>
         </div>
     </div>
     <script src="./script.js"></script>

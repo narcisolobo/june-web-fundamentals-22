@@ -4,12 +4,27 @@
   box-sizing: border-box;
 }
 
+:root {
+  --teal: #01d0b1;
+}
+
 /* utility classes start */
 .container {
   width: 1000px;
   margin: 0 auto;
-  background-color: red;
-  min-height: 100px;
+}
+
+.mb {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+body {
+  font-family: sans-serif;
 }
 
 .flex {
@@ -18,46 +33,80 @@
   align-items: center;
   gap: 1.5rem;
 }
+
+.flex-start {
+  justify-content: flex-start;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
 /* utility classes end */
 
 /* header start */
 header {
-  background-color: orange;
-  min-height: 50px;
+  padding: .5rem 0;
+}
+
+.header-left, .header-right {
+  flex: 1;
+}
+
+header > input {
+  flex: 3;
+  min-height: 2.5em;
+  border-radius: 20px;
+}
+
+header img {
+  width: 40px;
+}
+
+.logo {
+  background-color: var(--teal);
+  padding: 5px;
+}
+
+.header-left h2 {
+  font-family: serif;
 }
 /* header end */
 
 /* nav start */
-nav {
-  background-color: yellow;
-  min-height: 50px;
+.nav {
+  padding: .5rem 0;
+  list-style-type: none;
 }
 /* nav end */
 
 /* hero start */
-.hero {
-  background-color: green;
-  min-height: 100px;
+.discover {
+  font-size: x-large;
+  padding: 1.5rem;
 }
 
 .hero-left {
   flex: 2;
-  background-color: aqua;
-  min-height: 100px;
+  background-color: var(--teal);
+  color: white;
+  text-align: center;
 }
 
 .hero-right {
   flex: 1;
-  background-color: coral;
-  min-height: 100px;
+}
+
+.hero-right a {
+  background-color: var(--teal);
+  display: block;
+  padding: 1rem;
 }
 /* hero end */
 
 /* features start */
 .features {
-  background-color: blue;
-  min-height: 100px;
   padding: 1.5rem;
+  background-color: #b5edea;
 }
 
 .feature {
@@ -72,7 +121,24 @@ nav {
 
 /* cookie start */
 .cookie {
-  background-color: hotpink;
-  min-height: 50px;
+  border: 1px solid black;
+  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+}
+
+.cookie a {
+  color: blue;
+  text-decoration: underline;
+}
+
+.cookie button {
+  background-color: var(--teal);
+  border: 3px solid black;
+  padding: .5em 1em;
+  white-space: nowrap;
+  color: white;
+  box-shadow: 3px 3px black;
 }
 /* cookie end */
