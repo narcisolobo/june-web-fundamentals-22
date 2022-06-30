@@ -1,0 +1,38 @@
+FULL STACK -
+Front End (HTML, CSS, JS)
+Back End (Python, Java, JS)
+DB (MySQL, MongoDB (Mongoose))
+
+Web FrameWorks
+Python - Flask, Django
+Java - Spring MVC
+JavaScript - React, Express
+
+MERN
+M - MongoDB
+E - Express.js
+R - React.js
+N - Node.js
+
+First Week
+Fundamentals of Language
+OOP - Object Oriented Programming
+FrameWork - Flask
+
+Second Week
+FrameWork
+Login and Registration
+
+Belt Exam in Third Week
+Red or Black Belt
+
+Project Week in Fourth Week
+
+Final Goal - Build a Web App capable of full CRUD
+CRUD - Create, Read, Update, and Destroy
+
+Long Weekend:
+Get a head start on Python - Basic 13
+Demystify the Terminal - MIT Terminus
+Demystify Git - Oh My Git
+SQL - SQL Zoo

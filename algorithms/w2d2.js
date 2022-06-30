@@ -23,6 +23,7 @@ function arrReverse(arr) {
     var temp = arr[start];
     arr[start] = arr[end];
     arr[end] = temp;
+    console.log(`i: ${i}, arr: ${arr}`);
     console.log('i:' + i + ', arr: ' + arr);
   }
   return arr;
